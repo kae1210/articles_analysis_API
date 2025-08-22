@@ -1,8 +1,7 @@
 
 # 記事分析ツール（articles_analysis_API）
 
-検索・ソート・ページネーション付きの記事一覧を表示し、  
-記事データを検索・分析するための記事分析ツールです。
+検索・ソート・ページネーション付きの記事一覧を表示し、記事データを検索・分析するための記事分析ツールです。
 React（フロントエンド）+ Node.js / Express（バックエンド）+ MySQL（データベース）で構成されています。
 
 ---
@@ -77,6 +76,7 @@ npm install
 npm start       
 ```
 フロントエンドが http://localhost:3000 で起動します。
+
 ---
 
 ## 機能一覧
@@ -96,7 +96,7 @@ npm start
 ## スクリーンショット
 
 ### 通常表示
-![通常の記事一覧](./articles-client/public/screenshots/default)
+![通常の記事一覧](https://raw.githubusercontent.com/kae1210/articles_analysis_API/main/articles-client/public/screenshots/default.png)
 
 ### 検索・ソート後
-![検索結果](./articles-client/public/screenshots/filtered)
+![検索結果](https://raw.githubusercontent.com/kae1210/articles_analysis_API/main/articles-client/public/screenshots/filtered.png)
